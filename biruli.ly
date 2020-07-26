@@ -29,24 +29,22 @@ CCLogo = \markup {
 BuyMeCoffee = \markup { "Do you like it? Buy me a coffee!" \with-url #"https://ko-fi.com/tubafranz" "ko-fi.com/tubafranz"}
 
 \header {
-    dedication = \Dedication
-    title = \Title
-    composer = \Composer
-    arranger = \Arranger
-    copyright = \Copyright
-    opus= \BuyMeCoffee
-    meter = \Github
-    poet = \CCLogo
+  dedication = \Dedication
+  title = \Title
+  composer = \Composer
+  arranger = \Arranger
+  copyright = \Copyright
+  opus= \BuyMeCoffee
+  meter = \Github
+  poet = \CCLogo
 }
-\paper {  
+\paper {
   ragged-last-bottom = ##f
   ragged-bottom = ##f
 }
 global = {
   \key c \major
   \time 4/4
-  % the actual music
-
 }
 
 right = \relative c''' {
@@ -67,10 +65,10 @@ right = \relative c''' {
   \acciaccatura a32 g16-.[ r16 r16 \acciaccatura a32 g16-.] r4 r2 |
   \acciaccatura d'32 c16-.[ r16 r16 \acciaccatura d32 c16-.] r4 r2 |
   \acciaccatura a32 g16-.[ r16 r16 \acciaccatura a32 g16-.] r4 r2 |
-  
-  r2 \ottava #1 <c' e,>8-.\pp 
-  
-}   
+
+  r2 \ottava #1 <c' e,>8-.\pp
+
+}
 
 
 left = \relative c {
@@ -79,11 +77,11 @@ left = \relative c {
   c8-.\p  g'-. d-. g-. e-. g-. d-. g-. |
   c,8_\markup \italic "sempre staccato" g' d g e g d g |
 
-  c,8  g' d g e g d g |
   c,8 g' d g e g d g |
   c,8 g' d g e g d g |
   c,8 g' d g e g d g |
-  c,8  g' d g e g d g |
+  c,8 g' d g e g d g |
+  c,8 g' d g e g d g |
   c,8 g' d g e g d g |
   c,8 g' d g e g d g |
   c,8 g' d g e g d g |
