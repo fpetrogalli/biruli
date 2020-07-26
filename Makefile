@@ -11,4 +11,4 @@ by-sa.eps:
 	wget https://mirrors.creativecommons.org/presskit/buttons/88x31/eps/by-sa.eps
 
 clean:
-	rm *.pdf *.midi *.eps
+	rm -f *.pdf *.midi *.eps
