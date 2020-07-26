@@ -1,10 +1,42 @@
+% Copyright 2020 - Francesco Petrogalli and Olmo Fiorenzo Petrogalli
+
+% This work is licensed under CC BY-SA 4.0. To view a copy of this
+% license, visit https://creativecommons.org/licenses/by-sa/4.0"}
 \version "2.18.2"
 
+Dedication = \markup {"Per Olmino"}
+Title = \markup {"Birulì"}
+Version = \markup {"v1.0"}
+Github = \markup {\with-url #"http://github.com/fpetrogalli/biruli/releases/latest" "github.com/fpetrogalli/biruli" "-" \Version}
+Composer = \markup {"Francesco Petrogalli"}
+Arranger = \markup {\with-url #"http://tubafranz.me" "tubafranz.me"}
+Copyright = \markup {
+  \center-column {
+    \line { "Copyright © 2014-2020 Francesco Petrogalli"}
+    \line { "This work is licensed under CC BY-SA 4.0." }
+    \line {
+      "To view a copy of this license, visit"
+      \with-url #"https://creativecommons.org/licenses/by-sa/4.0"
+      "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  }
+}
+CCLogo = \markup {
+  \general-align #Y #DOWN {
+    \with-url #"https://creativecommons.org/licenses/by-sa/4.0" \epsfile #X #20 #"by-sa.eps"
+  }
+}
+BuyMeCoffee = \markup { "Do you like it? Buy me a coffee!" \with-url #"https://ko-fi.com/tubafranz" "ko-fi.com/tubafranz"}
+
 \header {
-  dedication = "Per Olmino"
-  title = "Birulì"
-  composer = "franZ"
-  tagline= ""
+    dedication = \Dedication
+    title = \Title
+    composer = \Composer
+    arranger = \Arranger
+    copyright = \Copyright
+    opus= \BuyMeCoffee
+    meter = \Github
+    poet = \CCLogo
 }
 \paper {  
   ragged-last-bottom = ##f
