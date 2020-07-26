@@ -1,8 +1,4 @@
 \version "2.18.2"
-% Solution 1: Using a simple markup with a particular halign value
-% Drawback: It's a markup, not a dynamic command, so \dynamicDown
-%           etc. will have no effect
-pLeggero = \markup { \halign #1.4  \dynamic "p" \italic "leggero"}
 
 \header {
   dedication = "Per Olmino"
@@ -48,7 +44,7 @@ right = \relative c''' {
 left = \relative c {
   \global
   % Music follows here.
-  c8-._\pLeggero  g'-. d-. g-. e-. g-. d-. g-. |
+  c8-.\p  g'-. d-. g-. e-. g-. d-. g-. |
   c,8_\markup \italic "sempre staccato" g' d g e g d g |
 
   c,8  g' d g e g d g |
