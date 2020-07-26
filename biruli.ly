@@ -1,4 +1,4 @@
-\version "2.16.2"
+\version "2.18.2"
 % Solution 1: Using a simple markup with a particular halign value
 % Drawback: It's a markup, not a dynamic command, so \dynamicDown
 %           etc. will have no effect
