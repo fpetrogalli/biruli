@@ -3,7 +3,6 @@
 % Drawback: It's a markup, not a dynamic command, so \dynamicDown
 %           etc. will have no effect
 pLeggero = \markup { \halign #1.4  \dynamic "p" \italic "leggero"}
-#(set-global-staff-size 24.0)
 
 \header {
   dedication = "Per Olmino"
