@@ -1,4 +1,4 @@
-% Copyright 2020 - Francesco Petrogalli and Olmo Fiorenzo Petrogalli
+% Copyright 2014-2020 - Francesco Petrogalli
 
 % This work is licensed under CC BY-SA 4.0. To view a copy of this
 % license, visit https://creativecommons.org/licenses/by-sa/4.0"}
